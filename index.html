@@ -20,30 +20,34 @@
                     class="bg-linear-to-t from-purple-500 via-pink-500 to-yellow-500 bg-clip-text text-transparent">Wave</span>
             </h1>
 
-            <ul class="flex gap-8 items-center">
+            <ul class="hidden sm:flex gap-8 items-center">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Episodes</a></li>
                 <li><a href="#">Host</a></li>
             </ul>
 
             <button
-                class="rounded-4xl font-semibold py-3 px-4 bg-linear-to-t from-purple-500 via-pink-500 to-yellow-500">Subscribe
-                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+                class="hidden sm:flex items-center gap-1.5 rounded-4xl font-semibold py-3 px-4 bg-linear-to-t from-purple-500 via-pink-500 to-yellow-500">Subscribe
+                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+            </button>
+            <img class="sm:hidden" src="./assets/hamburger-menu.png" alt="">
         </nav>
         <hr class="border-gray-200">
 
         <!-- Hero Section -->
-        <section class="bg-image mt-2 w-full h-[90vh] py-[101px]">
+        <section class="bg-image mt-2 max-w-full h-[90vh] py-[101px] hero-container">
             <div class="max-w-[550px] mx-auto text-center">
-                <div class="max-w-[350px] mx-auto relative">
-                    <img src="./assets/hero-circle.png" alt="">
+                <div class="max-w-[350px] mx-auto relative hero-images">
+                    <img class="" src="./assets/hero-circle.png" alt="">
                     <img class="absolute top-[23%] left-[32%]" src="./assets/microphone.png" alt="">
                     <button
                         class="shadow-[0_0_15px_rgba(0,255,136,1)] py-2 px-4 bg-[rgba(0,255,136,1)] text-black font-semibold rounded-[40px] absolute top-3 right-8 text-lg ">NEW</button>
                 </div>
+
                 <h1 class="mt-10 font-extrabold text-6xl">TechWave</h1>
                 <p class="text-gray-300 my-5">Your daily dose of tech insights, productivity hacks, and personal growth
                 </p>
+
                 <div class="flex gap-2.5 justify-center">
                     <button
                         class="py-3 px-5 font-semibold bg-linear-to-tr from-yellow-300 via-pink-500 to-purple-500 rounded-[40px] text-[1.25rem]"><i
@@ -58,7 +62,12 @@
         </section>
     </header>
 
-    
+    <main>
+        <!-- About Section -->
+        <section>
+
+        </section>
+    </main>
 </body>
 
 </html>

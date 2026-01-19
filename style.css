@@ -4,3 +4,28 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media screen and (max-width: 640px) {
+    .bg-image {
+        background-image: url('./assets/hero-bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .hero-section {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .hero-container {
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    .hero-container h1 {
+        font-size: 40px;
+    }
+
+}
