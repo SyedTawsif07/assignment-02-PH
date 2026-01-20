@@ -5,11 +5,31 @@
     background-size: cover;
 }
 
-.footer-bg{
+.footer-bg {
     background-image: url('./assets/footer-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* Animation part */
+
+.animation {
+    animation: shadowPulse 3s ease-in-out infinite;
+}
+
+@keyframes shadowPulse {
+    0% {
+        box-shadow: 0 0 10px #00FF88;
+    }
+
+    50% {
+        box-shadow: 0 0 35px #00FF88;
+    }
+
+    100% {
+        box-shadow: 0 0 20px #00FF88;
+    }
 }
 
 @media screen and (max-width: 576px) {
